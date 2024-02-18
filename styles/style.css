@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#container{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(/assets/img/BR-pt-20240212-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 20px;
+}
+
+#logo{
+    width: 150px;
+}
+
+select{
+    padding: 7px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+
+}
+
+option{
+    background-color: white;
+    color: black;
+}
+
+#btn-enter{
+    padding: 7px 15px;
+    background-color: #e50914;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
