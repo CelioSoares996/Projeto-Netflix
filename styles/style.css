@@ -1,6 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Circular Std', sans-serif;   
+    background-color: black;
 }
 
 #header{
@@ -37,12 +41,22 @@ option{
 }
 
 #btn-enter{
-    padding: 7px 15px;
+    padding: 9px 15px;
     background-color: #e50914;
     color: white;
     font-size: 14px;
     border: none;
     border-radius: 5px;
     margin: 15px;
+
+}
+
+#main{
+    color: white;
+
+}
+
+#tilte-main{
+font-size: 58px;
 }
 
